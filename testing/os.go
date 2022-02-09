@@ -9,8 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Sirupsen/logrus"
 	"go-sitemirror/cacher"
+
+	"github.com/sirupsen/logrus"
 )
 
 type fakeFs struct {

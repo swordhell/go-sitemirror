@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/hectane/go-nonblockingchan"
+	nbc "github.com/hectane/go-nonblockingchan"
+	"github.com/sirupsen/logrus"
 	"github.com/tevino/abool"
 )
 

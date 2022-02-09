@@ -6,7 +6,7 @@ import (
 	neturl "net/url"
 	"time"
 
-	"gopkg.in/jarcoal/httpmock.v1"
+	"github.com/jarcoal/httpmock"
 
 	"go-sitemirror/cacher"
 	. "go-sitemirror/crawler"

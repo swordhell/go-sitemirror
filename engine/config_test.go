@@ -7,12 +7,13 @@ import (
 	"os"
 	"time"
 
-	"gopkg.in/jarcoal/httpmock.v1"
+	"github.com/jarcoal/httpmock"
 
-	"github.com/Sirupsen/logrus"
 	"go-sitemirror/cacher"
 	. "go-sitemirror/engine"
 	t "go-sitemirror/testing"
+
+	"github.com/sirupsen/logrus"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

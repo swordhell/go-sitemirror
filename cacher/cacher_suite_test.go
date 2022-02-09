@@ -3,15 +3,15 @@ package cacher_test
 import (
 	"strings"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	"github.com/onsi/ginkgo"
+	"github.com/onsi/gomega"
 
 	"testing"
 )
 
 func TestCacher(t *testing.T) {
-	RegisterFailHandler(Fail)
-	RunSpecs(t, "Cacher Suite")
+	gomega.RegisterFailHandler(ginkgo.Fail)
+	ginkgo.RunSpecs(t, "Cacher Suite")
 }
 
 func getHeaderValue(written string, headerKey string) string {

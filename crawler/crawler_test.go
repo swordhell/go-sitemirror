@@ -9,8 +9,9 @@ import (
 
 	. "go-sitemirror/crawler"
 	t "go-sitemirror/testing"
+
+	"github.com/jarcoal/httpmock"
 	"github.com/tevino/abool"
-	"gopkg.in/jarcoal/httpmock.v1"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

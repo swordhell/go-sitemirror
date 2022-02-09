@@ -10,9 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"go-sitemirror/cacher"
+
 	"github.com/namsral/flag"
+	"github.com/sirupsen/logrus"
 )
 
 // Config represents an engine configuration

@@ -14,7 +14,8 @@ import (
 	"go-sitemirror/crawler"
 	. "go-sitemirror/engine"
 	t "go-sitemirror/testing"
-	"gopkg.in/jarcoal/httpmock.v1"
+
+	"github.com/jarcoal/httpmock"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

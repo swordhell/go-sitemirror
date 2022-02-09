@@ -12,9 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"go-sitemirror/cacher"
 	"go-sitemirror/web/internal"
+
+	"github.com/sirupsen/logrus"
 )
 
 type server struct {

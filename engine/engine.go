@@ -7,10 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"go-sitemirror/cacher"
 	"go-sitemirror/crawler"
 	"go-sitemirror/web"
+
+	"github.com/sirupsen/logrus"
 	"github.com/tevino/abool"
 )
 

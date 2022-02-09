@@ -5,9 +5,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/jarcoal/httpmock"
 	"go-sitemirror/cacher"
-
-	"gopkg.in/jarcoal/httpmock.v1"
 )
 
 // InvalidURL an invalid url as in RFC 6874

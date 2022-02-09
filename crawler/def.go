@@ -5,8 +5,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/Sirupsen/logrus"
 	"time"
+
+	"github.com/sirupsen/logrus"
 )
 
 // Crawler represents an object that can process download requests

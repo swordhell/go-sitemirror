@@ -5,10 +5,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"go-sitemirror/cacher"
 	"go-sitemirror/crawler"
 	"go-sitemirror/web"
+
+	"github.com/sirupsen/logrus"
 )
 
 // Engine represents an object that can mirror urls
