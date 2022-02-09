@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/daohoangson/go-sitemirror/cacher"
+	"go-sitemirror/cacher"
 
 	"gopkg.in/jarcoal/httpmock.v1"
 )

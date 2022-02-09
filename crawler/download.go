@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/daohoangson/go-sitemirror/cacher"
+	"go-sitemirror/cacher"
 	cssScanner "github.com/gorilla/css/scanner"
 	"golang.org/x/net/html"
 	htmlAtom "golang.org/x/net/html/atom"

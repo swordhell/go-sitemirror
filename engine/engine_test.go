@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/daohoangson/go-sitemirror/cacher"
-	"github.com/daohoangson/go-sitemirror/crawler"
-	. "github.com/daohoangson/go-sitemirror/engine"
-	t "github.com/daohoangson/go-sitemirror/testing"
+	"go-sitemirror/cacher"
+	"go-sitemirror/crawler"
+	. "go-sitemirror/engine"
+	t "go-sitemirror/testing"
 	"gopkg.in/jarcoal/httpmock.v1"
 
 	. "github.com/onsi/ginkgo"

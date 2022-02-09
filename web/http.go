@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/daohoangson/go-sitemirror/cacher"
-	"github.com/daohoangson/go-sitemirror/crawler"
-	"github.com/daohoangson/go-sitemirror/web/internal"
+	"go-sitemirror/cacher"
+	"go-sitemirror/crawler"
+	"go-sitemirror/web/internal"
 )
 
 var (

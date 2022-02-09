@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	. "github.com/daohoangson/go-sitemirror/cacher"
-	t "github.com/daohoangson/go-sitemirror/testing"
+	. "go-sitemirror/cacher"
+	t "go-sitemirror/testing"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

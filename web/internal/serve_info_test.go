@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"time"
 
-	. "github.com/daohoangson/go-sitemirror/web/internal"
+	. "go-sitemirror/web/internal"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

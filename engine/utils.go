@@ -3,8 +3,8 @@ package engine
 import (
 	"net/http"
 
-	"github.com/daohoangson/go-sitemirror/cacher"
-	"github.com/daohoangson/go-sitemirror/crawler"
+	"go-sitemirror/cacher"
+	"go-sitemirror/crawler"
 )
 
 // BuildCacherInputFromCrawlerDownloaded returns a cacher.Input with data copied from the specified crawler.Downloaded

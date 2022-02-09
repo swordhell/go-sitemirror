@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/daohoangson/go-sitemirror/cacher"
-	"github.com/daohoangson/go-sitemirror/web/internal"
+	"go-sitemirror/cacher"
+	"go-sitemirror/web/internal"
 )
 
 type server struct {

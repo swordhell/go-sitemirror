@@ -6,8 +6,8 @@ import (
 	"net/url"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/daohoangson/go-sitemirror/cacher"
-	"github.com/daohoangson/go-sitemirror/web/internal"
+	"go-sitemirror/cacher"
+	"go-sitemirror/web/internal"
 )
 
 // Server represents an object that can serve user request with cached data
